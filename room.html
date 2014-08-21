@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf8">
+</head>
+<body>
+  <button type="button" id="okbtn" onclick="imready();">準備OK</button>
+  <button type="button" id="keibtn" onclick="organization(1);" disabled>警察になる</button>
+  <button type="button" id="drobtn" onclick="organization(2);" disabled>泥棒になる</button>
+  <button type="button" id="navbtn" onclick="beNavi();" disabled>ナビゲータになる</button>
+  <button type="button" id="startbtn" onclick="gameStart();" disabled>ゲーム開始！</button>
+  <div id="wrapper">
+  </div>
+  <script src="http://localhost:9001/socket.io/socket.io.js"></script>
+  <script src="js/room.js"></script>
+</body>
+</html>
